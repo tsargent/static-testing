@@ -1,3 +1,3 @@
-console.log("message");
+console.log('message')
 
-typeof "dasdas" === "string";
+typeof 'dasdas' === 'string'
