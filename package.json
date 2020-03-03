@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src --out-dir dist",
     "lint": "eslint --ignore-path .gitignore .",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\""
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\"",
+    "validate": "npm run lint && npm run build"
   },
   "author": "",
   "license": "ISC",
